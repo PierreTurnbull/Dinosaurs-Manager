@@ -35,3 +35,19 @@
 //     }
 //   }
 // }
+
+Cypress.Commands.add("getBySel", (selector: string, ...args) => {
+    return cy.get(`[data-test=${selector}]`, ...args)
+})
+  
+Cypress.Commands.add("getBySelLike", (selector: string, ...args) => {
+    return cy.get(`[data-test*=${selector}]`, ...args)
+})
+
+Cypress.Commands.add("findBySel", { prevSubject: 'element' }, (subject, selector: string, ...args) => {
+    return cy.wrap(subject).find(`[data-test=${selector}]`, ...args)
+})
+  
+Cypress.Commands.add("findBySelLike", { prevSubject: 'element' }, (subject, selector: string, ...args) => {
+    return cy.wrap(subject).find(`[data-test*=${selector}]`, ...args)
+})

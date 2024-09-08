@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "module": "ESNext",
+        "moduleResolution": "Bundler",
+        "target": "ESNext",
+        "lib": ["ESNext", "dom"],
+        "types": ["cypress", "node"]
+    },
+    "include": ["**/*.ts"]
+}

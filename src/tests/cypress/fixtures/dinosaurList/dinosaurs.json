@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Tyrannosaure",
+        "height": "6.8",
+        "weight": "2500",
+        "description": "Le dinosaure Tyrannosaurus Rex, plus connu sous le nom de Tyrannosaure ou T rex, est incontestablement à la fois le plus célèbre des dinosaures, mais aussi celui qui a la réputation d’avoir été le plus féroce d’entre eux.",
+        "image_url": "https://img.freepik.com/photos-gratuite/tyrannosaurus-rex-etat-sauvage_23-2151446453.jpg?t=st=1725704890~exp=1725708490~hmac=1fa2c4c58a89d8b929ec6fbcb965b74464113c125be0d33f429fd1dbf267a4e9&w=1480"
+    },
+    {
+        "id": 2,
+        "name": "Velociraptor",
+        "height": "2.1",
+        "weight": "750",
+        "description": "Le Velociraptor était un genre de petit dinosaure bipède carnivore à plumes qui a vécu à la fin du crétacé, entre 80 et 70 millions d’années avant notre ère. Son nom signifie « voleur agile ».",
+        "image_url": "https://img.freepik.com/photos-premium/velociraptor-qui-court-dans-jungle_636537-456607.jpg?w=1380"
+    },
+    {
+        "id": 3,
+        "name": "Triceratops",
+        "height": "5.5",
+        "weight": "2000",
+        "description": "Le Triceratops était un grand dinosaure végétivore qui vécu à la fin du crétacé, entre 67 et 65 millions d’années avant notre ère. Son nom signifie « tête à trois cornes ». Il en portait deux longues sur le front et une plus courte sur le nez. Il avait en outre une large collerette osseuse derrière son crâne, destinée à protéger son cou et ses épaules.",
+        "image_url": "https://img.freepik.com/photos-gratuite/vue-creature-dinosaure-triceratops-eteinte_23-2151647042.jpg?t=st=1725704934~exp=1725708534~hmac=9deb618fb0c0b23bbeb80553e8587b39d0d27d6b263b4e81e9fd48d5ca21b2ff&w=1380"
+    },
+    {
+        "id": 4,
+        "name": "Stégosaure",
+        "height": "6.5",
+        "weight": "3000",
+        "description": "Stegosaurus (Stégosaure) est un dinosaure de grande taille, il a d’étranges plaques et pointes qui se dressent du cou jusqu’au milieu de la queue, presque à la verticale comme des remparts de chaque côté de son épine dorsale.",
+        "image_url": "https://cdna.artstation.com/p/assets/images/images/025/288/668/large/polymorph-artist-02.jpg?1585306125"
+    },
+    {
+        "id": 5,
+        "name": "Spinosaure",
+        "height": "5.9",
+        "weight": "2000",
+        "description": "Le spinosaure était un dinosaure théropode qui vivait au crétacé dans ce qui est maintenant l’Egypte, il y a 108 à 95 millions d’années. Son nom signifie « lézard épineux ».",
+        "image_url": "https://dinosaurland.es/wp-content/uploads/elementor/thumbs/12-Spinosaurus-qm4207gtwjcoe3acop17ygk7kmjau80fwuy4uymzuo.jpeg"
+    }
+]

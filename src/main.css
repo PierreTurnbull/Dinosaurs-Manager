@@ -1,0 +1,21 @@
+body {
+    font-family: 'Roboto Slab', serif;
+    position: relative;
+    @apply bg-yellow-500 bg-opacity-5;
+    @apply text-yellow-950;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -9999;
+    background-image: url("https://cdn4.dogonews.com/images/be04cc3b-c091-4bfc-aaae-a0feff1a4350/long-neckimage.jpeg");
+    background-size: cover;
+    background-position-x: center;
+    background-attachment: fixed;
+    opacity: 0.2;
+}

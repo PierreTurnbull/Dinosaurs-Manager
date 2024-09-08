@@ -1,0 +1,10 @@
+[
+    {
+        "id": 1,
+        "name": "Tyrannosaure",
+        "height": "6.8",
+        "weight": "2500",
+        "description": "Le dinosaure Tyrannosaurus Rex, plus connu sous le nom de Tyrannosaure ou T rex, est incontestablement à la fois le plus célèbre des dinosaures, mais aussi celui qui a la réputation d’avoir été le plus féroce d’entre eux.",
+        "image_url": "https://img.freepik.com/photos-gratuite/tyrannosaurus-rex-etat-sauvage_23-2151446453.jpg?t=st=1725704890~exp=1725708490~hmac=1fa2c4c58a89d8b929ec6fbcb965b74464113c125be0d33f429fd1dbf267a4e9&w=1480"
+    }
+]

@@ -1,50 +1,52 @@
-# React + TypeScript + Vite
+# Dinosaurs Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Getting Started
 
-Currently, two official plugins are available:
+Install dependencies:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+```
+npm install
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Set the environment variables for your local environment:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+```
+cp .env.example .env.development
+# then replace the values in .env.development
+# Note: for local development, prepend variables with `VITE_` to make them accessible to the client
+```
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+Generate the client-side Api to communicate with the server:
+
+```
+npm run api:gen
+```
+
+This Api provides you with convenient methods to communicate with the server, such as CRUD operations, as well as TS types matching the server's schema.
+
+Start the development server:
+
+```
+npm run dev
+```
+
+## Testing
+
+Set the environment variables for your local environment:
+
+```
+cp .env.example .env.test
+# then replace the values in .env.test
+```
+
+Run the Cypress tests:
+
+```
+npm run test:e2e
+```
+
+Open the Cypress tests:
+
+```
+npm run test:e2e:open
 ```
